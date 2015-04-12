@@ -32,7 +32,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<img class="synthlogo" width="572" height="250" src="wp-content/themes/twentytwelve-child/img/head2.png" >
+	<img class="synthlogo" width="572" height="250" src="<?php echo get_stylesheet_directory_uri(); ?>/img/head2.png" >
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
