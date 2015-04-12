@@ -11,10 +11,12 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-twelve-child
 */
-
+/* logo layout*/
 .synthlogo {
   display: block;
   margin: 0 auto;
+  width: 100%;
+  max-width: 550px;
 }
 #page{
   margin-top: -40px;
